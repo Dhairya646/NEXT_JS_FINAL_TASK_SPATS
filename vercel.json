@@ -1,0 +1,6 @@
+{
+  "buildCommand": "cd nssc && npm run build",
+  "devCommand": "cd nssc && npm run dev",
+  "installCommand": "npm install",
+  "outputDirectory": "nssc/.next"
+}
