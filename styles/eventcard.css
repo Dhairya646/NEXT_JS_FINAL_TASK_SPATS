@@ -1,0 +1,33 @@
+.event-card {
+  background: var(--surface);
+
+  border: 1px solid var(--border);
+
+  padding: 35px;
+
+  transition: 0.3s ease;
+}
+
+.event-card:hover {
+  background: var(--hover);
+
+  transform: translateY(-5px);
+}
+
+.event-card span {
+  color: #b5b5b5;
+
+  font-size: 14px;
+}
+
+.event-card h2 {
+  margin: 18px 0;
+
+  font-size: 28px;
+}
+
+.event-card p {
+  color: var(--muted);
+
+  line-height: 1.8;
+}

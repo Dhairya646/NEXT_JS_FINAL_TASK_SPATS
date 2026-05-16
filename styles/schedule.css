@@ -1,0 +1,77 @@
+.schedule-page {
+  width: 100%;
+}
+
+.timeline {
+  margin-top: 70px;
+
+  border-left: 1px solid var(--border);
+
+  padding-left: 40px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.timeline-item {
+  position: relative;
+}
+
+.timeline-dot {
+  width: 14px;
+  height: 14px;
+
+  border-radius: 50%;
+
+  background: white;
+
+  position: absolute;
+
+  left: -48px;
+  top: 10px;
+}
+
+.timeline-content {
+  background: var(--surface);
+
+  border: 1px solid var(--border);
+
+  padding: 35px;
+}
+
+.timeline-content h2 {
+  margin-bottom: 25px;
+
+  font-size: 28px;
+}
+
+.timeline-content ul {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.timeline-content li {
+  color: var(--muted);
+
+  padding-bottom: 12px;
+
+  border-bottom: 1px solid #1d1d1d;
+}
+
+.timeline-content li:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 768px) {
+  .timeline {
+    padding-left: 25px;
+  }
+
+  .timeline-dot {
+    left: -33px;
+  }
+}

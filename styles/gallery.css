@@ -1,0 +1,40 @@
+.gallery-page {
+  width: 100%;
+}
+
+.gallery-grid {
+  columns: 3;
+  column-gap: 20px;
+
+  margin-top: 60px;
+}
+
+.gallery-item {
+  margin-bottom: 20px;
+
+  overflow: hidden;
+
+  border: 1px solid var(--border);
+
+  background: var(--surface);
+}
+
+.gallery-item img {
+  width: 100%;
+
+  display: block;
+
+
+  transition: 0.5s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.04);
+  filter: grayscale(0%);
+}
+
+@media (max-width: 900px) {
+  .gallery-grid {
+    columns: 1;
+  }
+}
