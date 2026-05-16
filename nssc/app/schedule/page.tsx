@@ -5,8 +5,8 @@ const schedule = [
     day: "Day 1",
     events: [
       "Opening Ceremony",
-      "Rocket Design Workshop",
-      "Astronomy Quiz",
+      "LiftOff",
+      "Space Quiz",
     ],
   },
 
@@ -14,7 +14,7 @@ const schedule = [
     day: "Day 2",
     events: [
       "Guest Lectures",
-      "Space Technology Expo",
+      "Extravaganza",
       "Stargazing Session",
     ],
   },
@@ -22,8 +22,8 @@ const schedule = [
   {
     day: "Day 3",
     events: [
-      "Mars Rover Competition",
-      "Research Presentations",
+      "Case Study",
+      "Data Analytics",
       "Closing Ceremony",
     ],
   },
