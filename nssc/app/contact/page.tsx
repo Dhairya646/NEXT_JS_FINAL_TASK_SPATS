@@ -54,12 +54,12 @@ export default function ContactPage() {
     );
     setSubmissions(allSubmissions);
 
-    console.group("📡 NSSC 2026 — New Transmission Received");
-    console.log("🧑‍🚀 Name     :", formData.name);
-    console.log("📬 Email    :", formData.email);
-    console.log("💬 Message  :", formData.message);
-    console.log("🕐 Timestamp:", newSubmission.timestamp);
-    console.log("📦 All Submissions in Storage:", allSubmissions);
+    console.group("NSSC 2026 — New Transmission Received");
+    console.log("Name     :", formData.name);
+    console.log("Email    :", formData.email);
+    console.log("Message  :", formData.message);
+    console.log("Timestamp:", newSubmission.timestamp);
+    console.log("All Submissions in Storage:", allSubmissions);
     console.groupEnd();
 
     setSubmitted(true);
