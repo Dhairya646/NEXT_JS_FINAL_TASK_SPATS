@@ -39,7 +39,7 @@ const speakers = [
 export default function GuestLecturePage() {
   return (
     <main className="guest-page">
-      {/* Hero */}
+     
       <section className="guest-hero">
         <div className="guest-hero-tag">NSSC 2026 — SPEAKER SERIES</div>
         <h1 className="guest-title">
@@ -51,7 +51,7 @@ export default function GuestLecturePage() {
           astronomy, exploration and future technologies.
         </p>
 
-        {/* Decorative crosshairs */}
+       
         <div className="guest-crosshair guest-crosshair-left">
           <span></span><span></span>
         </div>
@@ -60,7 +60,7 @@ export default function GuestLecturePage() {
         </div>
       </section>
 
-      {/* Speaker cards */}
+      
       <section className="guest-speakers-section">
         <div className="speaker-grid">
           {speakers.map((speaker) => (
@@ -76,7 +76,7 @@ export default function GuestLecturePage() {
                 <img src={speaker.image} alt={speaker.name} />
               </div>
 
-              {/* Content */}
+              
               <div className="speaker-content">
                 <div className="speaker-meta">
                   <span className="speaker-date">{speaker.date}</span>
@@ -99,7 +99,7 @@ export default function GuestLecturePage() {
                 </div>
               </div>
 
-              {/* Hover glow */}
+              
               <div className="card-glow"></div>
             </div>
           ))}
