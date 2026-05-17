@@ -65,10 +65,10 @@ export default function GuestLecturePage() {
         <div className="speaker-grid">
           {speakers.map((speaker) => (
             <div className="speaker-card" key={speaker.id}>
-              {/* Index */}
+              
               <div className="speaker-index">{speaker.index}</div>
 
-              {/* Image with orbit rings */}
+             
               <div className="speaker-image-wrapper">
                 <div className="orbit orbit-1"></div>
                 <div className="orbit orbit-2"></div>
