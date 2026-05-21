@@ -54,12 +54,12 @@ export default function ContactPage() {
     );
     setSubmissions(allSubmissions);
 
-    console.group("📡 NSSC 2026 — New Transmission Received");
-    console.log("🧑‍🚀 Name     :", formData.name);
-    console.log("📬 Email    :", formData.email);
-    console.log("💬 Message  :", formData.message);
-    console.log("🕐 Timestamp:", newSubmission.timestamp);
-    console.log("📦 All Submissions in Storage:", allSubmissions);
+    console.group("NSSC 2026 — New Transmission Received");
+    console.log("Name     :", formData.name);
+    console.log("Email    :", formData.email);
+    console.log("Message  :", formData.message);
+    console.log("Timestamp:", newSubmission.timestamp);
+    console.log("All Submissions in Storage:", allSubmissions);
     console.groupEnd();
 
     setSubmitted(true);
@@ -70,7 +70,7 @@ export default function ContactPage() {
 
   return (
     <main className="contact-page">
-      {/* Hero */}
+      
       <section className="contact-hero">
         <div className="contact-hero-tag">TRANSMISSION CHANNEL OPEN</div>
         <h1 className="contact-title">
@@ -84,9 +84,9 @@ export default function ContactPage() {
         <div className="contact-hero-line"></div>
       </section>
 
-      {/* Main Grid */}
+     
       <section className="contact-main-section">
-        {/* Left: Form */}
+        
         <div className="contact-panel">
           <div className="panel-corner panel-corner-tl"></div>
           <div className="panel-corner panel-corner-tr"></div>
@@ -164,7 +164,7 @@ export default function ContactPage() {
           )}
         </div>
 
-        {/* Right: Info cards + radar */}
+       
         <div className="contact-right">
           <div className="info-card">
             <div className="info-card-num">01</div>
